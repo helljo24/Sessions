@@ -1,0 +1,87 @@
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #0b0f1a;
+  color: #ffffff;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 2rem 1rem;
+}
+
+/* Hero Banner */
+.hero {
+  background: #0d1220;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+.hero h1 {
+  color: #00ffff;
+  font-size: 2.5rem;
+}
+.hero p {
+  font-size: 1.2rem;
+  color: #00bfff;
+}
+
+/* About Section */
+.about {
+  background-color: #11182a;
+  text-align: center;
+}
+.about-img {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+
+/* Course Outline */
+.outline {
+  background-color: #0b0f1a;
+}
+.outline h2 {
+  text-align: center;
+  color: #00ffff;
+  margin-bottom: 1rem;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+th, td {
+  border: 1px solid #444;
+  padding: 0.75rem;
+  text-align: left;
+}
+th {
+  background-color: #1c2435;
+  color: #00bfff;
+}
+
+/* Booking Section */
+.booking {
+  background-color: #11182a;
+  text-align: center;
+}
+.booking h2 {
+  color: #00ffff;
+  margin-bottom: 1rem;
+}
+.note {
+  font-size: 0.9rem;
+  color: #aaaaaa;
+  margin-top: 1rem;
+}
+
+/* Footer */
+footer {
+  background: #0d1220;
+  text-align: center;
+  padding: 1rem;
+  color: #aaa;
+}
